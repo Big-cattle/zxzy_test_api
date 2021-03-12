@@ -1,0 +1,21 @@
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 **********登录用例：正常场景：修改密码成功**********
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 等待元素 ('xpath', '//*[@class="iconfont iconnavbar_icon_arrow"]') 可见
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 等待结束，等待时长为：0
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 查找元素：('xpath', '//*[@class="iconfont iconnavbar_icon_arrow"]')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17  ,点击元素：('xpath', '//*[@class="iconfont iconnavbar_icon_arrow"]')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 等待元素 ('xpath', '//*[@class="el-dropdown-menu__item"]/span') 可见
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 等待结束，等待时长为：0
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 查找元素：('xpath', '//*[@class="el-dropdown-menu__item"]/span')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17  ,点击元素：('xpath', '//*[@class="el-dropdown-menu__item"]/span')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 查找元素：('xpath', '//*[@for="originPassword"]/following-sibling::div/div/input')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17  ,输入内容：('xpath', '//*[@for="originPassword"]/following-sibling::div/div/input')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 查找元素：('xpath', '//*[@for="password"]/following-sibling::div/div/input')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17  ,输入内容：('xpath', '//*[@for="password"]/following-sibling::div/div/input')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 查找元素：('xpath', '//*[@for="rePassword"]/following-sibling::div/div/input')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17  ,输入内容：('xpath', '//*[@for="rePassword"]/following-sibling::div/div/input')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 查找元素：('xpath', '//span[text()="确 定"]')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17  ,点击元素：('xpath', '//span[text()="确 定"]')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 等待元素 ('xpath', '//*[@class="el-message__content"]') 可见
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 等待结束，等待时长为：0
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17 查找元素：('xpath', '//*[@class="el-message__content"]')
+[32mINFO    [0m zxzy_UI_autotest:get_log.py:17  获取元素文本内容

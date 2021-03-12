@@ -1,0 +1,272 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1615447843247" stop="1615447873168">
+  <name>TestCases.Model_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1615447843247" status="failed" stop="1615447843385">
+      <name>test_0_login.test_demo</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>@pytest.mark.demo
+    @pytest.mark.usefixtures("class_demo")
+    @pytest.mark.usefixtures("func_demo")
+    def test_demo():
+    	demo()
+&gt;   	assert False
+E    assert False
+
+TestCases\Model_login\test_0_login.py:16: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="bdea215c-6f10-4b4f-a5ba-55654da26b20-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="3fb57599-5afc-4852-9ad7-225eb62f19ef-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447843455" status="passed" stop="1615447849277">
+      <name>test_0_login.TestLogin.test_login_2_user_wrongFormat[data0]</name>
+      <attachments>
+        <attachment source="18b1567d-49b3-4e51-aa9a-4a91088f6a4a-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="e4e5be42-684b-4859-a56a-9349a99599af-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447849872" status="passed" stop="1615447850494">
+      <name>test_0_login.TestLogin.test_login_2_user_wrongFormat[data1]</name>
+      <attachments>
+        <attachment source="9a313baf-0f09-4512-b3b6-dc17d5b3b2a2-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447851003" status="passed" stop="1615447851654">
+      <name>test_0_login.TestLogin.test_login_2_user_wrongFormat[data2]</name>
+      <attachments>
+        <attachment source="6bf31f92-76e6-490c-aec5-c713d650ece7-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447852184" status="passed" stop="1615447853486">
+      <name>test_0_login.TestLogin.test_login_1_user_wrongFormat[data0]</name>
+      <attachments>
+        <attachment source="0c0362a5-173b-4fd7-b99d-1f882202f1bc-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447853982" status="passed" stop="1615447855237">
+      <name>test_0_login.TestLogin.test_login_1_user_wrongFormat[data1]</name>
+      <attachments>
+        <attachment source="03d16110-16f2-430d-8706-69846ac0c05b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447855730" status="passed" stop="1615447857005">
+      <name>test_0_login.TestLogin.test_login_1_user_wrongFormat[data2]</name>
+      <attachments>
+        <attachment source="06645606-991a-4b53-853e-7ba728e695c5-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447857513" status="passed" stop="1615447858817">
+      <name>test_0_login.TestLogin.test_login_1_user_wrongFormat[data3]</name>
+      <attachments>
+        <attachment source="4dd452be-789d-470b-a5dd-41489461f64b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447859282" status="passed" stop="1615447860618">
+      <name>test_0_login.TestLogin.test_login_1_user_wrongFormat[data4]</name>
+      <attachments>
+        <attachment source="4f9d1bf4-0b74-49b5-b23a-a26ec4817fc2-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447861125" status="passed" stop="1615447862473">
+      <name>test_0_login.TestLogin.test_login_1_user_wrongFormat[data5]</name>
+      <attachments>
+        <attachment source="dadeee39-2485-4b9c-997b-fcc262139c33-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447862917" status="passed" stop="1615447864047">
+      <name>test_0_login.TestLogin.test_login_1_user_wrongFormat[data6]</name>
+      <attachments>
+        <attachment source="cac06834-0f8d-4706-8554-e5ab7add4d6a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447864472" status="passed" stop="1615447865639">
+      <name>test_0_login.TestLogin.test_login_1_user_wrongFormat[data7]</name>
+      <attachments>
+        <attachment source="0e78796f-5ef0-4308-8475-8d2ce8f45af8-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447866085" status="passed" stop="1615447867223">
+      <name>test_0_login.TestLogin.test_login_1_user_wrongFormat[data8]</name>
+      <attachments>
+        <attachment source="fed57bbd-028a-4ce2-82e7-ca3fdef7d417-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447867676" status="passed" stop="1615447868355">
+      <name>test_0_login.TestLogin.test_login_0_reset_button[data0]</name>
+      <attachments>
+        <attachment source="685d9778-5fe1-4569-9d7b-901233ae234a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447868797" status="passed" stop="1615447869399">
+      <name>test_0_login.TestLogin.test_login_0_reset_button[data1]</name>
+      <attachments>
+        <attachment source="9288b70f-e7e9-4f51-ad78-36c3fb6e2b6f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447869829" status="passed" stop="1615447870436">
+      <name>test_0_login.TestLogin.test_login_0_reset_button[data2]</name>
+      <attachments>
+        <attachment source="063349f7-a605-46e4-aa18-82558e11819d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447870881" status="passed" stop="1615447871502">
+      <name>test_0_login.TestLogin.test_login_0_reset_button[data3]</name>
+      <attachments>
+        <attachment source="97a7caaa-04ca-493d-a04b-372cdae638b0-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1615447871948" status="passed" stop="1615447873168">
+      <name>test_0_login.TestLogin.test_login_4_success</name>
+      <attachments>
+        <attachment source="31a52c49-0987-4507-b28b-678340978d3d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3796-MainThread"/>
+        <label name="host" value="0CRC88I5"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
