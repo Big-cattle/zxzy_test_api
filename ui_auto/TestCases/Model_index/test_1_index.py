@@ -34,12 +34,12 @@ class TestIndex:
 	def test_change_pwd_success(self,access_index_page):
 		GetLog().info_log("**********登录用例：正常场景：修改密码成功**********")
 		access_index_page[1].change_password(change_success_data['old_pwd'],change_success_data['new_pwd'],change_success_data['confirm_pwd'])
-		assert access_index_page[1].change_password_tip(),'修改密码成功'
+		assert access_index_page[1].change_password_tip()=='修改密码成功'
 	@pytest.mark.parametrize("data",change_error_datas)
 	def test_change_pwd_error(self,data,access_index_page):
 		GetLog().info_log("**********登录用例：异常场景：输入错误数据修改密码失败**********")
 		access_index_page[1].change_password(data['old_pwd'], data['new_pwd'],data['confirm_pwd'])
-		assert access_index_page[1].change_password_cArea_tip(),data['check']
+		assert access_index_page[1].change_password_cArea_tip()==data['check']
 	
 
 	

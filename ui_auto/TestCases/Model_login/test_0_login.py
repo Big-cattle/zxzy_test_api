@@ -28,7 +28,7 @@ class TestLogin:
 	def test_login_2_user_wrongFormat(self, data, access_web):
 		GetLog().info_log("**********登录用例：异常场景：输入框为空等异常情况**********")
 		access_web[1].login(data['username'], data['password'], data['code'])
-		assert data['check'], access_web[1].get_errorMsg_from_loginArea()
+		assert data['check']==access_web[1].get_errorMsg_from_loginArea()
 		
 		# # 异常场景 --用户名错误，密码错误，验证码错误，用户名已失效，未分配角色用户名,密码错误次数超过三次
 		# @data(*error_datas)
@@ -36,7 +36,7 @@ class TestLogin:
 	def test_login_1_user_wrongFormat(self, data, access_web):
 		GetLog().info_log("**********登录用例：异常场景：错误数据**********")
 		access_web[1].login(data['username'], data['password'], data['code'])
-		assert access_web[1].get_errMsg_from_login_alertArea(), data['check']
+		assert access_web[1].get_errMsg_from_login_alertArea()==data['check']
 		
 		# #登录页面重置按钮功能测试
 		# @data(*reset_datas)
