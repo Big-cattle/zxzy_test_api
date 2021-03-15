@@ -8,14 +8,14 @@ from TestDatas.login_datas import *
 import pytest
 from Common.get_log import *
 # @ddt
-@pytest.mark.demo
-@pytest.mark.usefixtures("class_demo")
-@pytest.mark.usefixtures("func_demo")
-def test_demo():
-	demo()
-	assert False
-def demo():
-	print("那就不要留，时光一去不再有")
+# @pytest.mark.demo
+# @pytest.mark.usefixtures("class_demo")
+# @pytest.mark.usefixtures("func_demo")
+# def test_demo():
+# 	demo()
+# 	assert False
+# def demo():
+# 	print("那就不要留，时光一去不再有")
 
 
 @pytest.mark.usefixtures("access_web")
